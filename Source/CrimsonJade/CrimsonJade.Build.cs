@@ -2,14 +2,14 @@
 
 using UnrealBuildTool;
 
-public class CJC : ModuleRules
+public class CrimsonJade : ModuleRules
 {
-	public CJC(ReadOnlyTargetRules Target) : base(Target)
+	public CrimsonJade(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
 		PublicDependencyModuleNames.AddRange(new string[]
-			{"Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput"});
+			{"Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput", "CrimsonJadeCore"});
 
 		PrivateDependencyModuleNames.AddRange(new string[] { });
 	}

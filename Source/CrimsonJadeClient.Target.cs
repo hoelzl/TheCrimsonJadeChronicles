@@ -3,13 +3,13 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class CJCEditorTarget : TargetRules
+public class CrimsonJadeClientTarget : TargetRules
 {
-	public CJCEditorTarget(TargetInfo Target) : base(Target)
+	public CrimsonJadeClientTarget(TargetInfo Target) : base(Target)
 	{
-		Type = TargetType.Editor;
+		Type = TargetType.Client;
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_6;
-		ExtraModuleNames.Add("CJC");
+		ExtraModuleNames.Add("CrimsonJade");
 	}
 }

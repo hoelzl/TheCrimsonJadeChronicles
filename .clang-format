@@ -18,7 +18,7 @@ AlignTrailingComments:
 AllowShortBlocksOnASingleLine: Always
 AllowShortCaseLabelsOnASingleLine: true
 AllowShortEnumsOnASingleLine: false
-AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+AllowShortIfStatementsOnASingleLine: Never
 AllowShortLoopsOnASingleLine: true
 BraceWrapping:
   AfterCaseLabel: true

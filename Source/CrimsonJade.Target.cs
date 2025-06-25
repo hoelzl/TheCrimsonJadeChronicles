@@ -3,13 +3,13 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class CJCTarget : TargetRules
+public class CrimsonJadeTarget : TargetRules
 {
-	public CJCTarget(TargetInfo Target) : base(Target)
+	public CrimsonJadeTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_6;
-		ExtraModuleNames.Add("CJC");
+		ExtraModuleNames.Add("CrimsonJade");
 	}
 }
